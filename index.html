@@ -1,255 +1,278 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-   <link rel="stylesheet" href="style.css">
-   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css">
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css">
     <title>Document</title>
 </head>
+
 <body>
     <header class="header">
         <a href="#home" class="logo">
             <img src="./images/logo.jpg" alt="logo"> <span>AKASH</span></a>
-          
-            
-            <i class="fa-duotone fa-bars" id="menu-icon"></i>
-            <nav class="navbar">
-                <a href="#home" class="active">home</a>
-                <a href="#services">Services</a>
-                <a href="#projects">Projects</a>
-                <a href="#education">Education</a>
-                <a href="#contact">Contact</a>
-            </nav>
+        <div onclick="showContactPopup()" class="smile">
+            <i class="fa-regular fa-face-smile" ></i>
+            <h3>Reach me!</h3>
+        </div>
+
+        <nav class="navbar">
+            <a href="#home" class="active">home</a>
+            <a href="#services">Services</a>
+            <a href="#projects">Projects</a>
+            <a href="#github">Git Hub</a>
+            <a href="#experience">Experience</a>
+            <a href="#education">Education</a>
+            <a href="#contact">Contact</a>
+
+        </nav>
     </header>
-                <section class="home" id="home">
-                      <div class="home-content">
-                         <h1>Hi,It's <span>Akash</span></h1>
-                         <h3 class="text-animation">
-                            I'm a  <span></span>
-                         </h3>
-                          <p>fresher studing b.tech IT at karpagam collage of engineering</p>
-                           
-                          <div class="social-icons">
-                            <a href="https://leetcode.com/akash_kce/"><i class="fa-solid fa-code"></i></a>
-                            <a href="https://www.instagram.com/_king_of_haters_33?igsh=MXV5ZjM4MmlmdTloYQ=="><i class="fa-brands fa-instagram"></i></a>
-                            <a href="www.linkedin.com/in/akash-s-4685aa269"><i class="fa-brands fa-linkedin"></i></i></a>
-                            <a href="https://github.com/AKASH-kce"><i class="fa-brands fa-github"></i></a>
-                          </div>
-                          <a href="#" class="btn">HIRE
-                           <i class="fa-solid fa-briefcase"></i>
-                          </a>
-                            
-                          
-                      </div>
-                      <div class="home-img">
-                        <img src="./images/akashProfile.JPG" alt="pic">
-                      </div>
-                </section>
-           
+    <section class="home" id="home">
+        <div class="home-content">
+            <h1>Hi, It's <span>Akash</span></h1>
+            <h3 class="text-animation">
+                I'm a <span></span>
+            </h3>
+            <p>fresher studying B.Tech IT at Karpagam College of Engineering</p>
+            <div class="social-icons">
+                <a href="https://leetcode.com/akash_kce/"><i class="fa-solid fa-code"></i></a>
+                <a href="https://www.instagram.com/_king_of_haters_33?igsh=MXV5ZjM4MmlmdTloYQ=="><i
+                        class="fa-brands fa-instagram"></i></a>
+                <a href="https://www.linkedin.com/in/akash-s-4685aa269"><i class="fa-brands fa-linkedin"></i></a>
+                <a href="https://github.com/AKASH-kce"><i class="fa-brands fa-github"></i></a>
+            </div>
+            <a href="https://www.linkedin.com/in/akash-s2003" class="btn">HIRE
+                <i class="fa-solid fa-briefcase"></i>
+            </a>
+        </div>
+        <div class="home-img">
+            <img src="./images/akash 1.jpg" alt="pic">
+        </div>
+    </section>
 
-
-                <section class="services" id="services">
-                    <h2 class="heading">Services</h2>
-
-                    <div class="service-container">
-                        <div class="services-box">
-                            <i class="fa-solid fa-palette"></i>
-                             <h3>web Design</h3>
-                              <p>As a web designer, I excel in creating visually stunning websites that prioritize user experience.
-                                 With expertise in design principles and a focus on client objectives, I deliver innovative solutions
-                                  from concept to implementation. My passion lies in crafting engaging digital experiences that leave a 
-                                  lasting impact.</p>
-                                  <a href="#" class="btn">Learn More</a>
-                         </div>
-                          
-                         <div class="services-box">
-                            <i class="fa-solid fa-server"></i>
-                            <h3>Backend Developer</h3>
-                             <p>As a backend developer, I build efficient server-side
-                                 systems for web applications using languages like java.
-                                  My expertise lies in designing databases and implementing scalable APIs
-                                   to ensure optimal performance.</p>
-                                 <a href="#" class="btn">Learn More</a>
-                        </div>
-                         
-                        <div class="services-box">
-                            <i class="fa-solid fa-code"></i> 
-                            <h3>Frontend Developer</h3>
-                             <p>As a frontend developer, I create engaging user interfaces using HTML, 
-                                CSS, and JavaScript. My focus is on delivering visually appealing and intuitive 
-                                designs that enhance user experience. With a keen eye for detail and a passion for clean code,
-                                 I strive to bring concepts to life through seamless interaction and functionality.</p>
-                                 <a href="#" class="btn">Learn More</a>
-                        </div>
-                         
-                    </div>
-
-                </section>
-           <section class="projects" id="projects">
-            <h2 class="heading">Projects</h2>
-
-            <div class="projects-container">
-               <div class="projects-box">
-                <img src="./images/image1.jpg" alt="">
-                 <div class="projects-info">
-                    <h4>Graphic Design</h4>
-                    <p>
-                        Passionate graphic designer specializing in creating compelling visuals that captivate and
-                         communicate. Proficient in Adobe Creative Suite with a keen eye for detail and a dedication to delivering
-                          impactful designs. Portfolio showcases diverse projects ranging from branding and print materials to digital
-                           media and web graphics
-                    </p>
-                 </div>
-               </div>
-
-               <div class="projects-box">
-                <img src="./images/image2.jpg" alt="">
-                <div class="projects-info">
-                    <h4>Frontend Developer</h4>
-                    <p>
-                        Experienced frontend developer skilled in HTML, CSS, and JavaScript, with a passion for creating responsive 
-                        and visually appealing web applications. Proficient in modern frameworks like React and Vue.js. Dedicated to 
-                        delivering high-quality code and user-friendly interfaces that enhance the user experience.
-                    </p>
-                </div>
-              </div>
-
-              <div class="projects-box">
-                <img src="./images/image3.jpg" alt="">
-                <div class="projects-info">
-                    <h4>Backend Developer</h4>
-                    <p>
-                        Experienced backend developer proficient in building robust, scalable APIs and services using modern frameworks and
-                         languages such as java, Node.js, and java Script. Skilled in database management with SQL and NoSQL databases, ensuring 
-                         efficient data retrieval and storage. Passionate about creating high-performance systems that drive seamless user experiences.
-                    </p>
-                </div>
-              </div>
-
+    <section class="services" id="services">
+        <h2 class="heading">Services</h2>
+        <div class="service-container">
+            <div class="services-box">
+                <i class="fa-solid fa-palette"></i>
+                <h3>Web Design</h3>
+                <p>As a web designer, I excel in creating visually stunning websites that prioritize user experience.
+                    With expertise in design principles and a focus on client objectives, I deliver innovative solutions
+                    from concept to implementation. My passion lies in crafting engaging digital experiences that leave
+                    a lasting impact.</p>
+                <a href="#" class="btn">Learn More</a>
             </div>
 
-           </section>
+            <div class="services-box">
+                <i class="fa-solid fa-server"></i>
+                <h3>Backend Developer</h3>
+                <p>As a backend developer, I build efficient server-side systems for web applications using languages
+                    like C#, .NET, and SQL. My expertise lies in designing databases and implementing scalable APIs to
+                    ensure optimal performance.</p>
+                <a href="#" class="btn">Learn More</a>
+            </div>
 
-    
-          <section class="timeline-section" id="education">
-            <h2 class="heading">Education</h2>
+            <div class="services-box">
+                <i class="fa-solid fa-code"></i>
+                <h3>Frontend Developer</h3>
+                <p>As a frontend developer, I create engaging user interfaces using HTML, CSS, and JavaScript. My focus
+                    is on delivering visually appealing and intuitive designs that enhance user experience. With a keen
+                    eye for detail and a passion for clean code, I strive to bring concepts to life through seamless
+                    interaction and functionality.</p>
+                <a href="#" class="btn">Learn More</a>
+            </div>
+        </div>
+    </section>
 
-            <div class="timeline-items">
+    <section class="projects" id="projects">
+        <h2 class="heading">Projects</h2>
+        <div class="projects-container">
+            <div class="projects-box">
+                <img src="./images/image1.jpg" alt="">
+                <div class="projects-info">
+                    <h1>Database Developer (SQL)</h1>
+                    <p>Skilled in SQL database management and optimization. Proficient in writing complex queries,
+                        stored procedures, and managing relational databases such as SQL Server. Focused on efficient
+                        data retrieval and ensuring high performance and scalability of the database systems.</p>
+                </div>
+            </div>
 
-                <div class="timeline-item">
+            <div class="projects-box">
+                <img src="./images/image2.jpg" alt="">
+                <div class="projects-info">
+                    <h1>Frontend Developer (Angular)</h1>
+                    <p>Experienced frontend developer skilled in Angular, HTML, CSS, and JavaScript. Passionate about
+                        creating responsive and visually appealing web applications. Proficient in building dynamic and
+                        interactive user interfaces that enhance the user experience and performance of the application.
+                    </p>
+                </div>
+            </div>
 
-                    <div class="timeline-dot"></div>
-                    <div class="timeline-date">2019</div>
-                    <div class="timeline-content">
-                        <h3>SSLC School</h3>
-                        <p>Mullai Matric. Hr. Sec. School,
-                             Harur , Dharmapuri,Tamil Nadu,India.
-                        </p>
-                    </div>
+            <div class="projects-box">
+                <img src="./images/image3.jpg" alt="">
+                <div class="projects-info">
+                    <h1>Backend Developer (C#, .NET)</h1>
+                    <p>Experienced backend developer proficient in building robust, scalable APIs and services using C#
+                        and .NET frameworks. Skilled in handling business logic, data processing, and ensuring seamless
+                        integration between the frontend and backend systems.</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section class="timeline-section" id="education">
+        <h2 class="heading">Education</h2>
+        <div class="timeline-items">
+            <div class="timeline-item">
+                <div class="timeline-dot"></div>
+                <div class="timeline-date">2018 < --> 2019</div>
+                <div class="timeline-content">
+                    <h3>SSLC School</h3>
+                    <p>Mullai Matric. Hr. Sec. School, Harur, Dharmapuri, Tamil Nadu, India.</p>
+                </div>
+            </div>
+
+            <div class="timeline-item">
+                <div class="timeline-dot"></div>
+                <div class="timeline-date">2019 < --> 2021</div>
+                <div class="timeline-content">
+                    <h3>HSC School</h3>
+                    <p>Marutham Matric. Hr. Sec. School, Morappur-635305, Dharmapuri, Tamil Nadu, India.</p>
+                </div>
+            </div>
+
+            <div class="timeline-item">
+                <div class="timeline-dot"></div>
+                <div class="timeline-date">2021 < --> 2025</div>
+                <div class="timeline-content">
+                    <h3>College</h3>
+                    <p>Karpagam College of Engineering, Coimbatore, Tamil Nadu, India.</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section class="experience" id="experience">
+        <h2 class="heading">Experience</h2>
+        <div class="timeline-items">
+            <div class="timeline-item">
+                <div class="timeline-dot"></div>
+                <div class="timeline-date">2024 </div>
+                <div class="timeline-content">
+                    <h3>Software Engineer Intern</h3>
+                    <p>ClaySys Technologies, Kochi, Kerala, India. Working on developing and optimizing web applications
+                        using modern technologies. Focused on backend APIs and frontend development.</p>
+                </div>
+            </div>
+
+
+            <div class="timeline-item">
+                <div class="timeline-dot"></div>
+                <div class="timeline-date">2025 - Present</div>
+                <div class="timeline-content">
+                    <h3>Software Engineer</h3>
+                    <p>ClaySys Technologies, Kochi, Kerala, India. Full-time position, working on developing and
+                        optimizing web applications using modern technologies. Focused on backend APIs and frontend
+                        development.</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section id="github">
+        <section class="github-projects" id="github-projects">
+            <h2 class="heading">GitHub Projects</h2>
+            <div id="github-projects-container" class="github-projects-container"></div>
+        </section>
+    </section>
+
+    <section class="contact" id="contact">
+        <h2 class="heading">Contact <span>Me</span></h2>
+        <form action="#">
+            <div class="input-box">
+                <input type="text" placeholder="Full Name">
+                <input type="email" placeholder="Email">
+            </div>
+
+            <div class="input-box">
+                <input type="number" placeholder="Phone Number">
+                <input type="text" placeholder="Subject">
+            </div>
+            <div class="contact-popup">
+                <div class="popup-close" onclick="addContactDetials()">
+                    <i class="fa-regular fa-circle-xmark"></i>
+                </div>
+                <div class="contact-img">
+                    <img src="./images/akash 1.jpg" alt="">
+                </div>
+                <div>
+                    <h1>To Reach me via:</h1>
+                    <P><i class="fa-solid fa-phone"></i> +91 6374252235</P>
+                    <p> <a href="https://www.instagram.com/_king_of_haters_33?igsh=MXV5ZjM4MmlmdTloYQ==" target="_blank"
+                            rel="noopener noreferrer">
+                            <i class="fa-brands fa-instagram"></i>
+                            <span>_king_of_haters_33</span>
+                        </a>
+                    </p>
+                    <p>
+                        <a href="https://www.linkedin.com/in/akash-s-4685aa269" target="_blank"
+                            rel="noopener noreferrer">
+                            <i class="fa-brands fa-linkedin"></i>
+                            <span>AKASH S</span>
+                        </a>
+                    </p>
                 </div>
 
-                <div class="timeline-item">
+            </div>
+            <textarea name="" id="" cols="30" rows="10" placeholder="Your Message"></textarea>
+            <input type="submit" value="Send Message" class="btn">
 
-                    <div class="timeline-dot"></div>
-                    <div class="timeline-date">2020</div>
-                    <div class="timeline-content">
-                        <h3>HSC School</h3>
-                        <p>Marutham Matric. Hr. Sec. School,
-                             Morappur-635305 , Dharmapuri,Tamil Nadu,India.
-                        </p>
-                    </div>
+            <footer class="footer">
+                <div class="social">
+                    <a href="https://www.linkedin.com/in/akash-s-4685aa269"><i class="fa-solid fa-link"></i></a>
+                    <a href="https://github.com/AKASH-kce"><i class="fa-brands fa-github"></i></a>
+                    <a href="https://www.instagram.com/_king_of_haters_33?igsh=MXV5ZjM4MmlmdTloYQ=="><i
+                            class="fa-brands fa-instagram"></i></a>
                 </div>
 
-                <div class="timeline-item">
+                <ul class="list">
+                    <li>
+                        <a href="https://www.instagram.com/_king_of_haters_33?igsh=MXV5ZjM4MmlmdTloYQ==">FQA</a>
+                    </li>
 
-                    <div class="timeline-dot"></div>
-                    <div class="timeline-date">2021</div>
-                    <div class="timeline-content">
-                        <h3>College</h3>
-                        <p>karpagam college of engineering,
-                             Coimbatore,Tamil Nadu,India.
-                        </p>
-                    </div>
-                </div>
+                    <li>
+                        <a href="https://www.instagram.com/_king_of_haters_33?igsh=MXV5ZjM4MmlmdTloYQ==">Services</a>
+                    </li>
 
-<!--                 <div class="timeline-item">
+                    <li>
+                        <a href="https://www.instagram.com/_king_of_haters_33?igsh=MXV5ZjM4MmlmdTloYQ==">About Me</a>
+                    </li>
 
-                    <div class="timeline-dot"></div>
-                    <div class="timeline-date">2024</div>
-                    <div class="timeline-content">
-                        <h3>Internship</h3>
-                        <p>
-                            <!-- Infosys,california,New york -->
-                        </p>
-                    </div>
-                </div>
+                    <li onclick="showContactPopup()">
+                        <a href="">
+                            <p>Contact</p>
+                        </a>
+                    </li>
 
-                
-            </div> -->
-          </section>
+                    <li>
+                        <a href="https://www.instagram.com/_king_of_haters_33?igsh=MXV5ZjM4MmlmdTloYQ==">Privacy
+                            Policy</a>
+                    </li>
+                </ul>
+                <p class="copyright">
 
+                    <i class="fa-regular fa-copyright"></i>
+                    AKASH | All Rights Reserved
 
-         <section class="contact" id="contact">
+                </p>
 
-            <h2 class="heading">Contact <span>Me</span></h2>
-
-            <form action="#">
-                <div class="input-box">
-                  <input type="text" placeholder="Full Name">
-                  <input type="email" placeholder="Email">
-
-                </div>
-
-                <div class="input-box">
-                    <input type="number" placeholder="Phone Number">
-                    <input type="text" placeholder="Subject">
-                </div>
-
-                <textarea name="" id="" cols="30" rows="10" placeholder="Your Message" ></textarea>
-                <input type="submit" value="Send Message" class="btn">
-
-                <footer class="footer">
-                         <div class="social">
-                            <a href="www.linkedin.com/in/akash-s-4685aa269"><i class="fa-solid fa-link"></i></a>
-                            <a href="https://www.instagram.com/_king_of_haters_33?igsh=MXV5ZjM4MmlmdTloYQ=="><i class="fa-brands fa-instagram"></i></a>
-<!--                             <a href="#"><i class="fa-brands fa-instagram"></i></a> -->
-                            <a href="https://github.com/AKASH-kce"><i class="fa-brands fa-github"></i></a>
-                         </div>
-                       
-                         <ul class="list">
-                            <li>
-                                <a href="https://www.instagram.com/_king_of_haters_33?igsh=MXV5ZjM4MmlmdTloYQ==">FQA</a>
-                            </li>
-
-                            <li>
-                                <a href="https://www.instagram.com/_king_of_haters_33?igsh=MXV5ZjM4MmlmdTloYQ==">Services</a>
-                            </li>
-
-                            <li>
-                                <a href="https://www.instagram.com/_king_of_haters_33?igsh=MXV5ZjM4MmlmdTloYQ==">About Me</a>
-                            </li>
-
-                            <li>
-                                <a href="https://www.instagram.com/_king_of_haters_33?igsh=MXV5ZjM4MmlmdTloYQ==">Contact</a>
-                            </li>
-
-                            <li>
-                                <a href="https://www.instagram.com/_king_of_haters_33?igsh=MXV5ZjM4MmlmdTloYQ==">Privacy Policy</a>
-                            </li>
-                         </ul>
-
-                         <p class="copyright">
-                           
-                            <i class="fa-regular fa-copyright"></i>
-                              AKASH | All Rights Reserved
-
-                         </p>
-                </footer>
-            </form>
-         </section>
-
+            </footer>
+        </form>
+    </section>
 
     <script src="script.js"></script>
 </body>
+
 </html>
